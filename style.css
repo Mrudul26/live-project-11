@@ -460,3 +460,230 @@ footer{
     margin: 2em 0 0 0.5em;
     cursor: pointer;
 }
+
+
+/* Mobile responsiveness */
+
+@media (max-width:720px){
+    .logo-img{
+        width: 150px;
+        position: relative;
+        left: 20px;
+    }
+
+    .nav-list>li:not(:last-child){
+        display: none;
+    }
+    .nav-btn{
+        position: relative;
+        left: 200px;
+        width: 120px;
+        bottom: 10px;
+    }
+    header{
+        width: 200px;
+        position: relative;
+        right: 30px;
+        height: 1000px;
+    }
+    .head-heading{
+        font-size: 40px;
+        width: 400px;
+    }
+    .head-para{
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .head-btn{
+        width: 120px;
+    }
+
+    .header-svg-img{
+        float: none;
+    }
+
+    .header-svg-img>img{
+        width: 500px;
+        height: 400px;
+        position: relative;
+        left: 20px;
+    }
+    .section-2-svg{
+        display: none;
+    }
+    .section-2-details{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       position: relative;
+       left: 350px;
+    }
+
+
+    .section-2-heading{
+        font-size: 40px;
+        width: 400px;
+        margin-left: 1px;
+    }
+    .section-2-para{
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .section-2-btn{
+        width: 120px;
+    }
+
+   .section-3-svg-img{
+    float: none;
+   }
+
+   .section-3-container{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    bottom:300px;
+   }
+   .section-3-svg-img>img{
+    width: 500px;
+    height: 500px;
+   }
+ 
+ 
+     .section-3-heading{
+         font-size: 40px;
+         width: 400px;
+         margin-left: 1px;
+     }
+     .section-3-para{
+         font-size: 20px;
+         width: 400px;
+     }
+ 
+     .section-3-btn{
+         width: 120px;
+     }
+
+     .host-container{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .section-4-heading{
+        font-size: 40px;
+         width: 400px;
+     }
+     .section-4-para{
+        font-size: 20px;
+        width: 400px;
+        position: relative;
+        left: 60px;
+    }
+
+    .section-4{
+        height: 900px;
+    }
+
+    .hostings{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 2em;
+        column-gap: 2em;
+        padding: 20px;
+    }
+
+    .section-4-plans h2{
+        font-size: 20px;
+    }
+    
+    .section-4-plans p{
+        color: #878787;
+        width: 220px;
+        margin-top: 20px;
+    }
+
+    .section-5{
+        height: 2800px;
+    }
+
+    h1.section-5-heading{
+        color: #000;
+        font-size: 40px;
+        position: relative;
+        bottom:800px;
+    }
+
+    .section-5-container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .C-btn, .common-btn{
+        width: 120px;
+    }
+
+    .section-6-heading p{
+       width: 400px;
+       position: relative;
+       right: 280px;
+    }
+
+    .customer-review{
+        position: relative;
+        right: 150px;
+    }
+
+    .feedback{
+        height: 55vh;
+        width: 50vw;
+        
+    }
+    
+   .customers p{
+    display: none;
+   }
+
+   .section-6{
+    height: 1200px;
+   }
+
+   .section-7{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .section-7-deatils>h1, .section-7-deatils>p{
+    width: 450px;
+    position: relative;
+    right: 40px;
+
+   }
+
+   .section-7-btn{
+    position: relative;
+    bottom: 50px;
+    width: 120px;
+    margin: auto;
+    padding: 5px 10px;
+   }
+
+   footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   }
+
+   .footer-logo>p, .overview-section, .social-media-section{
+    display: none;
+   }
+
+
+
+
+}
